@@ -512,6 +512,7 @@ function jobscout_footer_top(){
     }
                  
     if( $active_sidebars ){ ?>
+    <?php get_template_part('/template-parts/contact-form7') ?>
         <div class="footer-t">
     		<div class="container">
     			<div class="grid column-<?php echo esc_attr( $sidebar_count ); ?>">

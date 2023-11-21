@@ -1,4 +1,5 @@
 <?php
+
 /**
  * JobScout functions and definitions
  *
@@ -8,8 +9,8 @@
  */
 
 $jobscout_theme_data = wp_get_theme();
-if( ! defined( 'JOBSCOUT_THEME_VERSION' ) ) define ( 'JOBSCOUT_THEME_VERSION', $jobscout_theme_data->get( 'Version' ) );
-if( ! defined( 'JOBSCOUT_THEME_NAME' ) ) define( 'JOBSCOUT_THEME_NAME', $jobscout_theme_data->get( 'Name' ) );
+if (!defined('JOBSCOUT_THEME_VERSION')) define('JOBSCOUT_THEME_VERSION', $jobscout_theme_data->get('Version'));
+if (!defined('JOBSCOUT_THEME_NAME')) define('JOBSCOUT_THEME_NAME', $jobscout_theme_data->get('Name'));
 
 /**
  * Implement Local Font Method functions.
@@ -36,7 +37,7 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/partials.php';
 
-if( jobscout_is_rara_theme_companion_activated() ) :
+if (jobscout_is_rara_theme_companion_activated()) :
 	/**
 	 * Modify filter hooks of RTC plugin.
 	 */
@@ -65,31 +66,32 @@ require get_template_directory() . '/inc/metabox.php';
 
 /**
  * Getting Started
-*/
+ */
 require get_template_directory() . '/inc/getting-started/getting-started.php';
 
 /**
  * Plugin Recommendation
-*/
+ */
 require get_template_directory() . '/inc/tgmpa/recommended-plugins.php';
 
 /**
  * Add theme compatibility function for woocommerce if active
-*/
-if( jobscout_is_woocommerce_activated() ){
-    require get_template_directory() . '/inc/woocommerce-functions.php';    
+ */
+if (jobscout_is_woocommerce_activated()) {
+	require get_template_directory() . '/inc/woocommerce-functions.php';
 }
 
 /**
  * Modify filter hooks of WP Job Manager plugin.
  */
-if( jobscout_is_wp_job_manager_activated() ) :
+if (jobscout_is_wp_job_manager_activated()) :
 	require get_template_directory() . '/inc/wp-job-manager-filters.php';
 endif;
 
-function enqueue_style(){
-	wp_enqueue_style('style-module-1',get_template_directory_uri().'/css/style_module_1.css');
-	wp_enqueue_style('style-module-header',get_template_directory_uri().'/css/style.module.header.css');
+function enqueue_style()
+{
+	wp_enqueue_style('style-module-1', get_template_directory_uri() . '/css/style_module_1.css');
+	wp_enqueue_style('style-module-header', get_template_directory_uri() . '/css/style.module.header.css');
 }
 
-add_action('wp_enqueue_scripts','enqueue_style');
+add_action('wp_enqueue_scripts', 'enqueue_style');

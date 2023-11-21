@@ -1,0 +1,55 @@
+.bg-contact-form7 {
+    background: #EA751E;
+}
+
+#wpcf7-f13-o1 .wpcf7-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wpcf7-f13-o1 .wpcf7-form .subscribe p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wpcf7-f13-o1 .wpcf7-form .subscribe p .title-sub {
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#wpcf7-f13-o1 .wpcf7-form .subscribe p .wpcf7-form-control-wrap {
+    margin: 10px;
+    position: relative;
+}
+
+#wpcf7-f13-o1 .wpcf7-form .subscribe p .wpcf7-form-control-wrap::before {
+    content: url(../images/email.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    left: 30px;
+}
+
+#wpcf7-f13-o1 .wpcf7-form .subscribe p .wpcf7-form-control-wrap .wpcf7-email {
+    padding-left: 50px;
+    border-radius: 0;
+}
+
+#wpcf7-f13-o1 .wpcf7-form .wpcf7-submit {
+    background-color: #EA751E;
+    border: #fff 1px solid;
+    border-radius: 0;
+    padding: 12px 2em;
+    margin: 10px;
+
+}
+
+#wpcf7-f13-o1 .wpcf7-form .wpcf7-submit:hover {
+    background-color: #fff;
+    color: #EA751E;
+    border: #fff 1px solid;
+}

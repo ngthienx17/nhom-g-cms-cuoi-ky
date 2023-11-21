@@ -5,10 +5,10 @@
     }
 </style>
 
-<div class="bg-[#EA751E]">
+<div class="bg-contact-form7">
     <div class="container">
         <div class="container-footer">
-            <?php echo do_shortcode('[contact-form-7 id="b723656" title="Contact form 1"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="7e75378" title="Contact form 1"]'); ?>
         </div>
     </div>
 </div>

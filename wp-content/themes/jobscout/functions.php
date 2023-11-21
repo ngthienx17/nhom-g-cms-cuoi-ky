@@ -91,7 +91,8 @@ endif;
 function enqueue_style()
 {
 	wp_enqueue_style('style-module-1', get_template_directory_uri() . '/css/style_module_1.css');
-	wp_enqueue_style('style-module-header', get_template_directory_uri() . '/css/style.module.header.css');
+	wp_enqueue_style('style-module-header', get_template_directory_uri() . '/css/style_module_header.css');
+	wp_enqueue_style('style-contact-form7', get_template_directory_uri() . '/css/style_contact_form7.css');
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_style');

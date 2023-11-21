@@ -16,10 +16,12 @@
     border-bottom: #EA751E 3px solid;
     color: #000;
 }
-.main-navigation ul li a{
+
+.main-navigation ul li a {
     padding: 3px 17px;
 }
-.menu-wrap .btn-wrap a.btn{
+
+.menu-wrap .btn-wrap a.btn {
     display: inline-block;
     background: #EA751E;
     border: 1px solid #EA751E;
@@ -30,7 +32,8 @@
     border-radius: 0;
 }
 
-.menu-wrap .btn-wrap a.btn:hover, a.btn:focus {
+.menu-wrap .btn-wrap a.btn:hover,
+a.btn:focus {
     background: none;
     color: #EA751E;
 }

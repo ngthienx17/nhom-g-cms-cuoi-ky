@@ -15,8 +15,9 @@
     */
     do_action( 'jobscout_doctype' );
 ?>
+
 <head itemscope itemtype="https://schema.org/WebSite">
-	<?php 
+    <?php 
     /**
      * Before wp_head
      * 
@@ -29,7 +30,7 @@
 
 <body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">
 
-<?php
+    <?php
     wp_body_open();
     
     /**

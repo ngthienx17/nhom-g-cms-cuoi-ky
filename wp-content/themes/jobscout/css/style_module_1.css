@@ -1,14 +1,15 @@
-.banner-caption .caption-inner{
+.banner-caption .caption-inner {
     max-width: 990px;
 }
-.banner-caption{
+
+.banner-caption {
     text-align: left;
 }
 
 .banner-caption .jobscout_job_filters .search_jobs {
     flex-wrap: nowrap;
     padding: 15px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     justify-content: space-between;
     border-radius: 0;
 }
@@ -84,4 +85,18 @@
     background: #fff;
     border: 1px solid #EA751E;
     color: #EA751E;
+}
+
+@media screen and (max-width: 767px) {
+    .banner-caption .jobscout_job_filters .search_jobs div.search_keywords {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .banner-caption .jobscout_job_filters .search_jobs div.filter_last,
+    .banner-caption .jobscout_job_filters .search_jobs div.search_location {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
 }

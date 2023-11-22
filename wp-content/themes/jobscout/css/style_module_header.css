@@ -38,3 +38,29 @@ a.btn:focus {
     background: none;
     color: #EA751E;
 }
+
+.header-main .main-navigation .toggle-btn{
+    background: #EA751E;
+    color: #EA751E;
+    border: #fff 1px solid;
+}
+.header-main .main-navigation .toggle-btn:hover{
+    background: #fff;
+    color: #fff;
+    border: #EA751E 1px solid;
+}
+.header-main .main-navigation .toggle-btn:hover .toggle-bar{
+    background: #EA751E;
+}
+a.btn{
+    background: #EA751E;
+    color: #fff;
+    border: #fff 1px solid;
+
+}
+a.btn:hover{
+    background: #fff;
+    color: #EA751E;
+    border: #EA751E 1px solid;
+
+}

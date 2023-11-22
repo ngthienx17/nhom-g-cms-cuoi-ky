@@ -53,3 +53,12 @@
     color: #EA751E;
     border: #fff 1px solid;
 }
+
+@media screen and (max-width: 767px) {
+    #wpcf7-f13-o1 .wpcf7-form .subscribe p{
+        flex-direction: column;
+    }
+    #wpcf7-f13-o1 .wpcf7-form{
+        flex-direction: column;
+    }
+}

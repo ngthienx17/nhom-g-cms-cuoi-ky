@@ -47,7 +47,6 @@ if ($post_slug) {
 
       </div>
 
-
       <?php if ($ed_job_category) { ?>
         <div class="search_categories custom_search_categories">
           <label for="search_category"><?php esc_html_e('Job Category', 'jobscout'); ?></label>
